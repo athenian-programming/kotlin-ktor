@@ -31,6 +31,7 @@ dependencies {
     implementation "io.ktor:ktor-server-core:${ktorVersion}"
     implementation "io.ktor:ktor-server-cio:${ktorVersion}"
     implementation "io.ktor:ktor-html-builder:${ktorVersion}"
+    implementation "io.ktor:ktor-serialization:${ktorVersion}"
 
     implementation "ch.qos.logback:logback-classic:${logbackVersion}"
     implementation "org.slf4j:jul-to-slf4j:${slf4jVersion}"
